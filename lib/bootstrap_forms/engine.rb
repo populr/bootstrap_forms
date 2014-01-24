@@ -10,9 +10,9 @@ module BootstrapForms
           include BootstrapForms::Helpers::NestedFormHelper
 
           # Do not wrap errors in the extra div
-          ::ActionView::Base.field_error_proc = Proc.new do |html_tag, instance_tag|
-            html_tag
-          end
+          # ::ActionView::Base.field_error_proc = Proc.new do |html_tag, instance_tag|
+          #  html_tag
+          # end
         end
       end
     end
